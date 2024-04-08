@@ -2,6 +2,7 @@ import "../App.css";
 import Greetings from "./Greetings";
 import About from "./About";
 import Skills from "./Skills";
+import Work from "./Work";
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
       </section>
       <section>
         <Skills></Skills>
+      </section>
+      <section>
+        <Work></Work>
       </section>
     </div>
   );
