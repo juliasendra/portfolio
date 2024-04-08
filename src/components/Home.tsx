@@ -3,6 +3,7 @@ import Greetings from "./Greetings";
 import About from "./About";
 import Skills from "./Skills";
 import Work from "./Work";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
       </section>
       <section>
         <Work></Work>
+      </section>
+      <section>
+        <Contact></Contact>
       </section>
     </div>
   );

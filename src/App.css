@@ -38,3 +38,21 @@ h1 {
   background-color: #8A817C;
   padding: 10rem;
 }
+
+.work-section h4 {
+ color: white;
+}
+
+.work-section h2{
+  color: white;
+ }
+
+
+.contact-section {
+  background-color: #463F3A;
+  padding: 10rem;
+}
+
+.contact-section h4{
+  color: white;
+}
