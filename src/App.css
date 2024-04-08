@@ -14,7 +14,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #E0AFA0;
+  background-color: #e0afa0;
   padding: 10rem;
 }
 
@@ -25,54 +25,81 @@ h1 {
 }
 
 .about-container {
-  background-color: #F4F3EE;
+  background-color: #f4f3ee;
   padding: 10rem;
 }
 
 .skills-section {
-  background-color: #BCB8B1;
+  background-color: #bcb8b1;
   padding: 10rem;
 }
 
 .work-section {
-  background-color: #8A817C;
+  background-color: #8a817c;
   padding: 10rem;
 }
 
 .work-section h4 {
- color: white;
+  color: white;
 }
 
-.work-section h2{
+.work-section h2 {
   color: white;
- }
-
+}
 
 .contact-section {
-  background-color: #463F3A;
+  background-color: #463f3a;
   padding: 10rem;
 }
 
-.contact-section h4{
+.contact-section h4 {
   color: white;
 }
 
 .custom-pink {
-  background-color: #E0AFA0;
+  background-color: #e0afa0;
 }
 
 .custom-dark-gray {
-  background-color: #463F3A;
+  background-color: #463f3a;
 }
 
 .custom-medium-gray {
-    background-color: #8A817C;
-  }
+  background-color: #8a817c;
+}
 
-  .custom-light-gray {
-    background-color: #BCB8B1;
-  }
+.custom-light-gray {
+  background-color: #bcb8b1;
+}
 
-  .custom-white {
-    background-color: #F4F3EE;
-  }
+.custom-white {
+  background-color: #f4f3ee;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.devicon-html5-plain,
+.devicon-css3-plain,
+.devicon-javascript-plain,
+.devicon-react-original,
+.devicon-git-plain,
+.devicon-github-original,
+.devicon-vscode-plain,
+.devicon-nodejs-plain-wordmark,
+.devicon-npm-original-wordmark,
+.devicon-mongodb-plain,
+.devicon-mongoose-original,
+.devicon-express-original,
+.devicon-typescript-plain,
+.devicon-postman-plain,
+.devicon-netlify-plain,
+.devicon-nodemon-plain {
+  font-size: 5rem;
+  margin: 0 1rem;
+}
