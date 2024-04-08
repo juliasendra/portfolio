@@ -23,3 +23,8 @@ h1 {
   height: auto;
   margin: 0px;
 }
+
+.about-container {
+  background-color: #F4F3EE;
+  padding: 10rem;
+}
