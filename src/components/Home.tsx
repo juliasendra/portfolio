@@ -8,19 +8,19 @@ import Contact from "./Contact";
 function Home() {
   return (
     <div>
-      <section>
+      <section id="greetings">
         <Greetings></Greetings>
       </section>
-      <section>
+      <section id="about">
         <About></About>
       </section>
-      <section>
+      <section id="skills">
         <Skills></Skills>
       </section>
-      <section>
+      <section id="work">
         <Work></Work>
       </section>
-      <section>
+      <section id="contact">
         <Contact></Contact>
       </section>
     </div>

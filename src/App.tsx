@@ -1,23 +1,18 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home";
-import Greetings from "./components/Greetings";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer.tsx";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/greetings" element={<Greetings />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </>
   );
 }

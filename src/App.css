@@ -56,3 +56,23 @@ h1 {
 .contact-section h4{
   color: white;
 }
+
+.custom-pink {
+  background-color: #E0AFA0;
+}
+
+.custom-dark-gray {
+  background-color: #463F3A;
+}
+
+.custom-medium-gray {
+    background-color: #8A817C;
+  }
+
+  .custom-light-gray {
+    background-color: #BCB8B1;
+  }
+
+  .custom-white {
+    background-color: #F4F3EE;
+  }
