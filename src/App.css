@@ -111,7 +111,8 @@ h1 {
 .profile-pic {
   filter: grayscale(100%);
   border-radius: 35%;
-  transition: filter 0.3s; 
+  transition: filter 0.3s;
+  max-width: 15vw; 
 }
 
 .profile-pic:hover {
@@ -129,3 +130,17 @@ h1 {
   padding-right: 1rem;
   border-radius: 5%;
 }
+
+.about-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  padding: 2rem;
+}
+
+
