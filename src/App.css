@@ -84,6 +84,10 @@ h1 {
   padding-top: 3rem;
 }
 
+.box-icon:hover {
+  color: #fff; 
+}
+
 .devicon-html5-plain,
 .devicon-css3-plain,
 .devicon-javascript-plain,
@@ -102,4 +106,19 @@ h1 {
 .devicon-nodemon-plain {
   font-size: 5rem;
   margin: 0 1rem;
+}
+
+.profile-pic {
+  filter: grayscale(100%);
+  border-radius: 35%;
+  transition: filter 0.3s; 
+}
+
+.profile-pic:hover {
+  filter: grayscale(0%);
+  border-radius: 35%;
+}
+
+.form-label {
+  color: #fff;
 }
