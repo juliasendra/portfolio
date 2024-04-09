@@ -39,7 +39,7 @@ h1 {
   padding: 10rem;
 }
 
-.work-section h4 {
+.work-section h4, .work-section p {
   color: white;
 }
 
@@ -121,4 +121,11 @@ h1 {
 
 .form-label {
   color: #fff;
+}
+
+.work-images {
+  max-width: 30vw;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  border-radius: 5%;
 }
