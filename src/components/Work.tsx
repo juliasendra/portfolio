@@ -6,6 +6,8 @@ import boardgames2 from "../assets/images/boardgames2.png";
 import idoplanner1 from "../assets/images/idoplanner1.png";
 import idoplanner2 from "../assets/images/idoplanner2.png";
 import idoplanner3 from "../assets/images/idoplanner3.png";
+import rciproducciones1 from "../assets/images/rciproducciones1.png";
+import rciproducciones2 from "../assets/images/rciproducciones2.png";
 
 
 function Work() {
@@ -285,6 +287,7 @@ function Work() {
           >
             <div className="accordion-body">
               <p>An audiovisual producer's portfolio</p>
+              <p>Technologies:  HTML5, CSS3, JavaScript ES6, React, TailwindCSS</p>
               <div
                 id="carouselRciProducciones"
                 className="carousel slide"
@@ -293,14 +296,14 @@ function Work() {
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <img
-                      src={idoplanner1}
+                      src={rciproducciones1}
                       className="d-block w-100"
                       alt="RCI Producciones 1"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
-                      src={idoplanner2}
+                      src={rciproducciones2}
                       className="d-block w-100"
                       alt="RCI Producciones 2"
                     />
@@ -332,8 +335,8 @@ function Work() {
                 </button>
               </div>
               <div className="work-btn">
-                <button className="rounded-btn">View it here</button>
-                <button className="rounded-btn">View GitHub Repo</button>
+                <button onClick={() => window.open('http://localhost:5173/', '_blank')} className="rounded-btn">View it here</button>
+                <button onClick={() => window.open('https://github.com/rciproducciones/rci-frontend', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
             </div>
           </div>
@@ -361,8 +364,7 @@ function Work() {
             <div className="accordion-body">
               <p>My personal portfolio, the one you are currently seeing.</p>
               <div className="work-btn">
-                <button className="rounded-btn">View it here</button>
-                <button className="rounded-btn">View GitHub Repo</button>
+                <button onClick={() => window.open('https://github.com/juliasendra/portfolio', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
             </div>
           </div>

@@ -226,3 +226,8 @@ h1 {
 .rounded-btn-form:hover {
   background-color: #706964;
 }
+
+.accordion {
+  max-width: 60vw;
+  margin: auto;
+}
