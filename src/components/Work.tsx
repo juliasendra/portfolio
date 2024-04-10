@@ -363,6 +363,7 @@ function Work() {
           >
             <div className="accordion-body">
               <p>My personal portfolio, the one you are currently seeing.</p>
+              <p>Technologies:  HTML5, CSS3, TypeScript, React, Bootsrap</p>
               <div className="work-btn">
                 <button onClick={() => window.open('https://github.com/juliasendra/portfolio', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
