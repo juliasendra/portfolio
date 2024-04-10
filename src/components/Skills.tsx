@@ -195,11 +195,6 @@ function Skills() {
             <i className="devicon-axios-plain-wordmark"></i>
             <p>axios</p>
           </div>
-
-
-
-
-
         </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../App.css";
 import scoopit1 from "../assets/images/scoopit1.png";
 import scoopit2 from "../assets/images/scoopit2.png";

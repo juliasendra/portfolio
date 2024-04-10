@@ -43,7 +43,7 @@ function ContactForm() {
           className="text-danger"
         />
       </div>
-      <button type="submit" className="btn custom-white" disabled={state.submitting}>
+      <button type="submit" className="rounded-btn-form custom-white" disabled={state.submitting}>
         Submit
       </button>
     </form>
