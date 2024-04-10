@@ -39,6 +39,7 @@ function Work() {
                 pesky fruits. The game features straightforward mechanics and a
                 clear objective.
               </p>
+              <p>Technologies: HTML5, CSS3, JavaScript ES6</p>
               <div
                 id="carouselScoopIt"
                 className="carousel slide"
@@ -86,8 +87,8 @@ function Work() {
                 </button>
               </div>
               <div className="work-btn">
-                <button className="rounded-btn">View it here</button>
-                <button className="rounded-btn">View GitHub Repo</button>
+              <button onClick={() => window.open('https://juliasendra.github.io/scoopit-game/', '_blank')} className="rounded-btn">View it here</button>
+                <button onClick={() => window.open('https://github.com/juliasendra/scoopit-game', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
             </div>
           </div>
@@ -120,6 +121,7 @@ function Work() {
                 game suggestions, roll dice, and even take a personalized test
                 to find their perfect match for game nights!
               </p>
+              <p>Technologies: HTML5, CSS3, JavaScript ES6, React, TailwindCSS</p>
               <div
                 id="carouselBoardGames"
                 className="carousel slide"
@@ -167,8 +169,8 @@ function Work() {
                 </button>
               </div>
               <div className="work-btn">
-                <button className="rounded-btn">View it here</button>
-                <button className="rounded-btn">View GitHub Repo</button>
+                <button onClick={() => window.open('https://board-games-project.netlify.app/', '_blank')} className="rounded-btn">View it here</button>
+                <button onClick={() => window.open('https://github.com/board-games-app', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
             </div>
           </div>
@@ -200,6 +202,7 @@ function Work() {
                 through streamlined processes, allowing more time to enjoy the
                 enchanting moments.
               </p>
+              <p>Technologies: HTML5, CSS3, JavaScript ES6, MERN Stack (MongoDb, Express, React and Node.js), Mongoose, TailwindCSS </p>
               <div
                 id="carouselIdoPlanner"
                 className="carousel slide"
@@ -254,8 +257,8 @@ function Work() {
                 </button>
               </div>
               <div className="work-btn">
-                <button className="rounded-btn">View it here</button>
-                <button className="rounded-btn">View GitHub Repo</button>
+                <button onClick={() => window.open('https://i-do-planner.netlify.app', '_blank')} className="rounded-btn">View it here</button>
+                <button onClick={() => window.open('https://github.com/orgs/your-wedding-planner/repositories', '_blank')} className="rounded-btn">View GitHub Repo</button>
               </div>
             </div>
           </div>
