@@ -78,7 +78,7 @@ h1 {
 
 .container-icons {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -104,7 +104,10 @@ h1 {
 .devicon-typescript-plain,
 .devicon-postman-plain,
 .devicon-netlify-plain,
-.devicon-nodemon-plain {
+.devicon-nodemon-plain,
+.devicon-bootstrap-plain,
+.devicon-tailwindcss-original,
+.devicon-axios-plain-wordmark {
   font-size: 5rem;
   margin: 0 1rem;
 }
@@ -144,4 +147,60 @@ h1 {
   padding: 2rem;
 }
 
+.accordion-item {
+  background-color: transparent !important;
+  border-radius: 10px;
+}
 
+.accordion-header button {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: white;
+}
+
+.accordion-button {
+  color: white;
+}
+
+.rounded-btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #463f3a; 
+  color: #fff; 
+  border: none;
+  margin: 10px;
+  max-width: fit-content;
+}
+
+.rounded-btn:hover {
+  background-color: #706964;
+}
+
+.accordion-body {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.work-images{
+  display: flex;
+  flex-direction: row;
+}
+
+.work-btn{
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel {
+  max-width: 30vw; 
+  margin: auto;
+}
+
+.form-control{
+  background-color: #f4f3ee;
+}
