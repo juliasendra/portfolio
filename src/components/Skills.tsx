@@ -166,6 +166,36 @@ function Skills() {
             <p>nodemon</p>
           </div>
 
+          <div className="box-icon">
+            <link
+              rel="stylesheet"
+              type="text/css"
+              href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+            />
+            <i className="devicon-bootstrap-plain"></i>
+            <p>Bootstrap</p>
+          </div>
+
+          <div className="box-icon">
+            <link
+              rel="stylesheet"
+              type="text/css"
+              href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+            />
+            <i className="devicon-tailwindcss-original"></i>
+            <p>taillwindcss</p>
+          </div>
+
+          <div className="box-icon">
+            <link
+              rel="stylesheet"
+              type="text/css"
+              href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+            />
+            <i className="devicon-axios-plain-wordmark"></i>
+            <p>axios</p>
+          </div>
+
 
 
 
